@@ -1,0 +1,28 @@
+{
+  "name": "namy-be",
+  "version": "1.0.0",
+  "description": "Backend for Ñamy API",
+  "main": "index.js",
+  "engines": {
+    "node": "18",
+    "npm": "9"
+  },
+  "scripts": {
+    "build": "webpack",
+    "lint": "eslint \"**/*.ts\" \"*.js\" \"**/*.js\"",
+    "lint-fix": "npm run lint -- --fix",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@trivago/prettier-plugin-sort-imports": "^4.2.0",
+    "@typescript-eslint/eslint-plugin": "^6.7.4",
+    "@typescript-eslint/parser": "^6.7.4",
+    "eslint": "^8.50.0",
+    "typescript": "^5.2.2"
+  },
+  "dependencies": {
+    "axios": "^1.5.1"
+  }
+}
